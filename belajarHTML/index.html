@@ -5,50 +5,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        header h1:hover {
+            transform: scale(1.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            transition: transform 0.3s ease;
+        }
+
+        section h2:hover {
+            transform: scale(1.1);
+        }
+
+        article h3 {
+            transition: transform 0.3s ease;
+        }
+
+        article h3:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 <body>
-    <header style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
-        <h1>Welcome to My Website</h1>
+    <header>
+        <h1>WELCOME TO MY WEBSITE</h1>
         <nav>
-            <ul style="list-style-type: none; padding: 0; margin: 0;">
-                <li style="display: inline; margin-right: 10px;"><a href="#home" style="text-decoration: none; color: #fff;">Home</a></li>
-                <li style="display: inline; margin-right: 10px;"><a href="#blog" style="text-decoration: none; color: #fff;">Blog</a></li>
-                <li style="display: inline; margin-right: 10px;"><a href="#gallery" style="text-decoration: none; color: #fff;">Gallery</a></li>
-                <li style="display: inline; margin-right: 10px;"><a href="#contact" style="text-decoration: none; color: #fff;">Contact</a></li>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
-    <main style="text-align: center; margin-top: 20px;">
+    <main>
         <section id="home">
             <h2>Homepage</h2>
             <p>Selamat datang di website saya! Saya senang Anda berada di sini.</p>
             <p>Di sini Anda dapat menemukan berbagai informasi menarik tentang seni, olahraga, dan teknologi.</p>
-            <p>Saya menyukai pemandangan, enjoy!!.</p>
+            <p>Nama Saya Leandro Rumondor, Mahasiswa IT Unsrat, Saya Suka Dengan Pemandangan.</p>
         </section>
 
         <section id="blog">
             <h2>Blog</h2>
             <article>
                 <h3>Teknologi: Perkembangan Terbaru dalam Dunia Teknologi</h3>
-                <p>Teknologi terus berkembang pesat dan memiliki dampak besar dalam kehidupan kita sehari-hari. Artikel ini membahas beberapa perkembangan terbaru dalam dunia teknologi, seperti kecerdasan buatan, kendaraan otonom, dan Internet of Things.</p>
+                <p>Teknologi terus berkembang pesat dan memiliki dampak besar dalam kehidupan kita sehari-hari. Artikel ini membahas beberapa perkembangan terbaru dalam dunia teknologi, seperti kecerdasan buatan, kendaraan otonom, dan Internet of Things. Teknologi kecerdasan buatan (AI) telah menjadi bagian integral dari banyak aspek kehidupan kita. Dari asisten virtual hingga mobil otonom, AI terus memperluas pengaruhnya. Sementara itu, kendaraan otonom semakin mendekati kenyataan, dengan perusahaan-perusahaan besar seperti Tesla dan Google terus mengembangkan teknologi ini. Internet of Things (IoT) juga mengubah cara kita berinteraksi dengan dunia sekitar kita, dengan rumah pintar, kota pintar, dan perangkat lainnya yang terhubung secara online.</p>
             </article>
             <article>
                 <h3>Sejarah Kemerdekaan Indonesia: Perjuangan Menuju Kemerdekaan</h3>
-                <p>Sejarah kemerdekaan Indonesia merupakan perjalanan panjang dan penuh perjuangan. Artikel ini mengupas tentang peristiwa-peristiwa penting dalam perjuangan menuju kemerdekaan Indonesia, termasuk proklamasi kemerdekaan pada tanggal 17 Agustus 1945.</p>
+                <p>Sejarah kemerdekaan Indonesia merupakan perjalanan panjang dan penuh perjuangan. Artikel ini mengupas tentang peristiwa-peristiwa penting dalam perjuangan menuju kemerdekaan Indonesia, termasuk proklamasi kemerdekaan pada tanggal 17 Agustus 1945. Perjuangan kemerdekaan Indonesia tidaklah mudah. Dari penjajahan Belanda yang panjang hingga perjuangan para pahlawan nasional seperti Soekarno dan Hatta, setiap langkah menuju kemerdekaan dipenuhi dengan pengorbanan dan perjuangan. Artikel ini menghormati dan mengenang perjuangan para pahlawan yang telah berjuang keras untuk memperoleh kemerdekaan bagi bangsa Indonesia.</p>
             </article>
             <article>
                 <h3>Musik: Pengaruh Musik dalam Kehidupan Manusia</h3>
-                <p>Musik memiliki peran yang penting dalam kehidupan manusia. Artikel ini membahas tentang pengaruh musik dalam berbagai aspek kehidupan, mulai dari pengaruhnya terhadap suasana hati hingga peran musik dalam industri hiburan.</p>
+                <p>Musik memiliki peran yang penting dalam kehidupan manusia. Artikel ini membahas tentang pengaruh musik dalam berbagai aspek kehidupan, mulai dari pengaruhnya terhadap suasana hati hingga peran musik dalam industri hiburan. Musik telah dikenal memiliki kekuatan untuk mempengaruhi suasana hati dan emosi. Dari musik klasik yang menenangkan hingga musik rock yang energik, setiap genre memiliki dampaknya sendiri pada pendengarnya. Selain itu, musik juga memainkan peran penting dalam industri hiburan, dengan konser, festival musik, dan penjualan rekaman yang menjadi bagian integral dari budaya populer.</p>
             </article>
         </section>
 
         <section id="gallery">
             <h2>Gallery</h2>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 20px; justify-items: center; padding: 20px;">
-                <img src="Andro1.jpeg" alt="Image 1" style="max-width: 100%; height: auto;">
-                <img src="Andro2.jpeg" alt="Image 2" style="max-width: 100%; height: auto;">
-                <img src="Andro3.jpeg" alt="Image 3" style="max-width: 100%; height: auto;">
+                <img src="Andro1.jpeg" alt="Image 1">
+                <img src="Andro2.jpeg" alt="Image 2">
+                <img src="Andro3.jpeg" alt="Image 3">
             </div>
         </section>
 
@@ -59,8 +164,44 @@
         </section>
     </main>
 
-    <footer >
+    <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
     </footer>
+
+    <script>
+        const headerText = document.getElementById('headerText');
+
+        headerText.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+        });
+
+        headerText.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+
+        const sectionHeadings = document.querySelectorAll('section h2');
+
+        sectionHeadings.forEach(heading => {
+            heading.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.1)';
+            });
+
+            heading.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+
+        const articleTitles = document.querySelectorAll('article h3');
+
+        articleTitles.forEach(title => {
+            title.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.1)';
+            });
+
+            title.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
 </body>
 </html>
